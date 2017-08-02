@@ -1,0 +1,492 @@
+@font-face {
+    font-family: 'the_only_exceptionregular';
+    src: url('fonts/theonlyexception-webfont.woff2') format('woff2'),
+         url('fonts/theonlyexception-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'asdfghjklmedium';
+    src: url('fonts/asdfghjkl-webfont.woff2') format('woff2'),
+         url('fonts/asdfghjkl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url("images/background3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+    font-family: 'century gothic';
+    font-size: 16px;  
+    color: #7c7c7c;
+    cursor: default;
+}
+
+main {
+    background-image: url("images/background3.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 650px;
+}
+
+section#home {
+    background-image: url("images/background1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 25%;
+}
+
+section#home p#logo img {
+    max-width: 366px;
+    width: 25%;
+    height: auto;
+}
+
+section#home p#arrow img {
+    max-width: 54px;
+    width: 5%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+section#about {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5%;
+}
+
+section#about img {
+    width: 15%;
+    height: auto;
+    max-width: 226px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+section#about section#description {
+    margin-left: 38%;
+    margin-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+section#about section#description h2 {
+    font-size: 35px;
+    font-family: 'the_only_exceptionregular';
+}
+
+section#about section#description p {
+    font-size: 16px;
+    padding-bottom: 2%;
+} 
+
+section#lines {
+    width: 100%;
+    margin-top: 10px;
+    border-top: 10px solid;
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+section#gallery ul {
+    margin-top: 10%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 10%;
+}
+
+section#gallery ul li {
+    list-style: none;
+    display: inline;
+}
+
+section#gallery ul li {
+    cursor: pointer;
+}
+
+section#gallery ul li img {
+    margin: 15px;
+    max-width: 200px;
+    min-width: 100px;
+    height: auto;
+    width: 20%;
+}
+
+section#gallery ul li {
+    opacity: 0.7;
+}
+
+section.gallery {
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 50%;
+    max-width: 724px;
+    min-width: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10%;
+    position: absolute;
+    top: 0;
+}
+
+section.gallery img.banner {
+    width: 100%;
+}
+
+section.gallery h3{
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 3%;
+}
+
+section.gallery h4 {
+    font-family: 'asdfghjklmedium';
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    clear: both;
+}
+
+section.gallery p {
+    margin-bottom: 3%;
+}
+
+section#cottontails img#logo {
+    float: left;
+    width: 20%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+section#cottontails p#logop {
+    float: right;
+    width: 75%;
+    padding-top: 3%;
+}
+
+section#cottontails p#graphic {
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+section#cottontails p#graphicbook {
+    text-align: center;
+} 
+
+section#cottontails p#graphicbook img {
+    width: 80%;
+}
+
+section#cottontails p#process {
+    text-align: center;
+    padding-top: 2%;
+} 
+
+section#cottontails p#process img {
+    width: 90%;
+}
+
+section#cottontails p#finalproductp {
+    float: left;
+    width: 45%;
+    padding-top: 3%;
+}
+
+section#cottontails img#finalproduct {
+    float: right;
+    width: 50%;
+}
+
+section#daycamp2014 h4 {
+    padding-bottom: 2%;
+}
+
+section#daycamp2014 p#yearbook {
+    text-align: center;
+} 
+
+section#daycamp2014 p#yearbook img {
+    width: 85%;
+}
+
+section#daycamp2014 p#decor {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section#daycamp2014 p#decor img {
+    width: 90%;
+}
+
+section.gallery p.small {
+    font-size: 12px;
+    text-align: center;
+}
+
+section#daycamp2015 h4 {
+    padding-bottom: 2%;
+}
+
+section#daycamp2015 p#yearbook2015 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+section#daycamp2015 p#yearbook2015 img {
+    width: 85%;
+}
+section#daycamp2015 p#tshirt {
+    text-align: center;
+}
+
+section#daycamp2015 p#tshirt img {
+    width: 90%;
+}
+
+section#connected h4 {
+    margin-bottom: 2%;
+}
+
+section#connected img#connectedproduct {
+    float: left;
+    width: 40%;
+    padding-bottom: 2%;
+}
+
+section#connected p#productp {
+    width: 60%;
+    padding-top: 3%;
+    float: right;
+}
+
+section#connected p#logop {
+    float: left;
+    width: 60%;
+}
+
+section#connected p#logop img {
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+section#connected img#connectedinfo {
+    float: right;
+    width: 30%;
+    margin-top: -10%;
+}
+
+section#connected p#connectedcolors {
+    float: left;
+    width: 60%;
+}
+
+section#connected p#connectedcolors img {
+    width: 100%;
+}
+
+section#connected section#target {
+    float: right;
+    width: 25%;
+}
+
+section#connected section#target ul{
+    padding-bottom: 2%;
+}
+
+section#connected section#target ul li {
+    list-style: none;
+    margin-left: 10%;
+}
+
+section#connected section#target h4 {
+    padding-bottom: 2%;
+    padding-top: 10%;
+}
+
+section#connected p#connectedvideo {
+    text-align: center;
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+section#connected p#connectedvideo iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+}
+
+section#barista h4 {
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+section#barista p#musicvideo {
+    text-align: center;
+    margin-bottom: 30%;
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+section#barista p#musicvideo iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+}
+
+section#myevents p#myeventshome {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+section#myevents p#myeventshome img {
+    width: 80%;
+}
+
+section#myevents p#myeventsintro {
+    width: 70%;
+    float: right;
+    margin-top: 5%;
+}
+
+section#myevents section#process {
+    float: left;
+    width: 40%;
+    padding-top: 3%;
+}
+
+section#myevents section#process h5 {
+    font-weight: normal;
+    font-size: 16px;
+    padding-bottom: 2%;
+}
+
+section#myevents section#process ul li {
+    list-style: none;
+    padding-left: 10%;
+}
+
+section#myevents section#process p {
+    padding-left: 10%;
+}
+
+section#myevents section#inspo {
+    width: 55%;
+    float: right;
+}
+
+section#myevents section#inspo img {
+    width: 100%;
+}
+
+section#myevents section#sketches {
+    clear: both;
+    width: 45%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+section#myevents section#sketches img {
+    width: 100%;
+}
+
+section#myevents section#mockup {
+    width: 45%;
+    float: right;
+    padding-top: 4%;
+}
+
+section#myevents section#mockup img {
+    width: 100%;
+}
+
+section#myevents p#prototype {
+    text-align: center;
+    margin-top: 3%
+}
+
+section#myevents p#prototype img {
+    width: 45%;
+}
+
+section#leftpadding {
+    width: 25%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 1000px;
+}
+
+section#rightpadding {
+    width: 25%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 1000px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 5px;
+}
+
+footer section.left{
+    float: left;
+    text-align: left;
+    padding-left: 2%;
+    font-size: 12px;
+}
+
+footer section.right{
+    float: right;
+    padding-right: 2%;
+    font-size: 12px;
+}
+
+footer section.left a:link {
+    text-decoration: none;
+    color: #7c7c7c;
+}
+
+footer section.left a:visited {
+    text-decoration: none;
+    color: #7c7c7c;
+}
+
+footer section.left a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer section.left span:hover {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
