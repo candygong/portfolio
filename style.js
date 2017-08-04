@@ -143,5 +143,6 @@ $(document).ready(function () {
         $("iframe#connectedvideo").attr("src", connectedvideo);
     });
     
+    $('.carousel').carousel();
     
 })

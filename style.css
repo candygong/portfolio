@@ -291,12 +291,12 @@ section#connected img#connectedinfo {
     margin-top: -10%;
 }
 
-section#connected p#connectedcolors {
+section#connected section#connectedcolors {
     float: left;
     width: 60%;
 }
 
-section#connected p#connectedcolors img {
+section#connected section#connectedcolors img {
     width: 100%;
 }
 
@@ -754,3 +754,19 @@ footer section.left span:hover {
         bottom: 20px
     }
 }
+
+.carousel-fade .carousel-inner .item {
+            transition-property: opacity;
+        }
+        
+.carousel-fade .carousel-inner .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+.carousel-fade .carousel-inner .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
