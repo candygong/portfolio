@@ -755,18 +755,19 @@ footer section.left span:hover {
     }
 }
 
-.carousel-fade .carousel-inner .item {
+/* .carousel-fade .carousel-inner2 .item2 {
             transition-property: opacity;
         }
         
-.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner2 .item2,
         .active.left,
         .active.right {
             opacity: 0;
         }
 
-.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner2 .active,
         .next.left,
         .prev.right {
             opacity: 1;
         }
+*/
