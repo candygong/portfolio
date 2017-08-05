@@ -118,9 +118,12 @@ $(document).ready(function () {
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
         var baristavideo = $("iframe#baristavideo").attr("src");
         var connectedvideo = $("iframe#connectedvideo").attr("src");
-        $("iframe").attr("src","");
+        $("iframe#baristavideo").attr("src","");
+        $("iframe#connectedvideo").attr("src","");
+        $("iframe#myeventsapp").attr("src","");
         $("iframe#baristavideo").attr("src", baristavideo);
         $("iframe#connectedvideo").attr("src", connectedvideo);
+        $("iframe#myeventsapp").attr("src","myeventsapp/prototype5.html");
     });
     
     $('section#rightpadding').click(function () {
@@ -138,9 +141,12 @@ $(document).ready(function () {
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
         var baristavideo = $("iframe#baristavideo").attr("src");
         var connectedvideo = $("iframe#connectedvideo").attr("src");
-        $("iframe").attr("src","");
+        $("iframe#baristavideo").attr("src","");
+        $("iframe#connectedvideo").attr("src","");
+        $("iframe#myeventsapp").attr("src","");
         $("iframe#baristavideo").attr("src", baristavideo);
         $("iframe#connectedvideo").attr("src", connectedvideo);
+        $("iframe#myeventsapp").attr("src","myeventsapp/prototype5.html");
     });
     
     $('.carousel').carousel();

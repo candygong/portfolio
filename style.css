@@ -431,11 +431,20 @@ section#myevents section#mockup img {
 
 section#myevents p#prototype {
     text-align: center;
-    margin-top: 3%
+    margin-top: 3%;
 }
 
-section#myevents p#prototype img {
-    width: 45%;
+section#myevents p#prototype iframe#myeventsapp {
+    width: 507px;
+    height: 905px;
+    -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+    margin-left: 15%;
 }
 
 section#leftpadding {
