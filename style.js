@@ -145,19 +145,15 @@ $(document).ready(function () {
     
     $('.carousel').carousel();
     
-var slideIndex = 0;
-		showSlides();
+$("#slideshow > div:gt(0)").hide();
 
-		function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			for (i = 0; i < slides.length; i++) {
-			   slides[i].style.display = "none";  
-			}
-			slideIndex++;
-			if (slideIndex> slides.length) {slideIndex = 1}    
-			slides[slideIndex-1].style.display = "block";  
-			setTimeout(showSlides, 2000); // Change image every 2 seconds
-		}
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
 
 })
