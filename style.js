@@ -11,6 +11,7 @@ $(document).ready(function () {
     $('section#connected').hide();
     $('section#barista').hide();
     $('section#myevents').hide();
+    $('section#linetheme').hide();
     $('section#leftpadding').hide();
     $('section#rightpadding').hide();
     $('p#logo').css("opacity", "0");
@@ -35,6 +36,14 @@ $(document).ready(function () {
 
     $('section#gallery ul li').mouseout(function () {
         $(this).stop().fadeTo('linear', .7);
+    });
+    
+    $('section#linetheme ul li').mouseover(function () {
+        $(this).stop().fadeTo('linear', 1);
+    });
+
+    $('section#linetheme ul li').mouseout(function () {
+        $(this).stop().fadeTo('linear', .8);
     });
 
     $('section#gallery ul li#cottontailsthumb').click(function () {
@@ -103,6 +112,17 @@ $(document).ready(function () {
         $('section#rightpadding').show();
     });
     
+    $('section#gallery ul li#linethemethumb').click(function () {
+        $('section#mainpage').animate({
+            opacity: .1
+        }, 500, 'linear');
+        $('section#mainpage').css("position", "fixed").css("bottom", "0");
+        $('section#linetheme').fadeIn();
+        $('html,body').scrollTop(0);
+        $('section#leftpadding').show();
+        $('section#rightpadding').show();
+    });
+    
     $('section#leftpadding').click(function () {
         $('section#mainpage').animate({
             opacity: 1
@@ -113,6 +133,7 @@ $(document).ready(function () {
         $('section#barista').fadeOut();
         $('section#myevents').fadeOut();
         $('section#connected').fadeOut();
+        $('section#linetheme').fadeOut();
         $('section#leftpadding').hide();
         $('section#rightpadding').hide();
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
@@ -136,6 +157,7 @@ $(document).ready(function () {
         $('section#barista').fadeOut();
         $('section#myevents').fadeOut();
         $('section#connected').fadeOut();
+        $('section#linetheme').fadeOut();
         $('section#leftpadding').hide();
         $('section#rightpadding').hide();
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
