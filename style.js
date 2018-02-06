@@ -10,6 +10,7 @@ $(document).ready(function () {
     $('section#daycamp2015').hide();
     $('section#connected').hide();
     $('section#barista').hide();
+    $('section#showtell').hide();
     $('section#myevents').hide();
     $('section#linetheme').hide();
     $('section#leftpadding').hide();
@@ -90,6 +91,17 @@ $(document).ready(function () {
         $('section#rightpadding').show();
     });
     
+    $('section#gallery ul li#showtellthumb').click(function () {
+        $('section#mainpage').animate({
+            opacity: .1
+        }, 500, 'linear');
+        $('section#mainpage').css("position", "fixed").css("bottom", "0");
+        $('section#showtell').fadeIn();
+        $('html,body').scrollTop(0);
+        $('section#leftpadding').show();
+        $('section#rightpadding').show();
+    });
+    
     $('section#gallery ul li#myeventsthumb').click(function () {
         $('section#mainpage').animate({
             opacity: .1
@@ -131,6 +143,7 @@ $(document).ready(function () {
         $('section#daycamp2014').fadeOut();
         $('section#daycamp2015').fadeOut();
         $('section#barista').fadeOut();
+        $('section#showtell').fadeOut();
         $('section#myevents').fadeOut();
         $('section#connected').fadeOut();
         $('section#linetheme').fadeOut();
@@ -138,11 +151,14 @@ $(document).ready(function () {
         $('section#rightpadding').hide();
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
         var baristavideo = $("iframe#baristavideo").attr("src");
+        var showtellvideo = $("iframe#showtellvideo").attr("src");
         var connectedvideo = $("iframe#connectedvideo").attr("src");
         $("iframe#baristavideo").attr("src","");
+        $("iframe#showtellvideo").attr("src","");
         $("iframe#connectedvideo").attr("src","");
         $("iframe#myeventsapp").attr("src","");
         $("iframe#baristavideo").attr("src", baristavideo);
+        $("iframe#showtellvideo").attr("src", showtellvideo);
         $("iframe#connectedvideo").attr("src", connectedvideo);
         $("iframe#myeventsapp").attr("src","myeventsapp/prototype5.html");
     });
@@ -155,6 +171,7 @@ $(document).ready(function () {
         $('section#daycamp2014').fadeOut();
         $('section#daycamp2015').fadeOut();
         $('section#barista').fadeOut();
+        $('section#showtell').fadeOut();
         $('section#myevents').fadeOut();
         $('section#connected').fadeOut();
         $('section#linetheme').fadeOut();
@@ -162,11 +179,14 @@ $(document).ready(function () {
         $('section#rightpadding').hide();
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
         var baristavideo = $("iframe#baristavideo").attr("src");
+        var showtellvideo = $("iframe#showtellvideo").attr("src");
         var connectedvideo = $("iframe#connectedvideo").attr("src");
         $("iframe#baristavideo").attr("src","");
+        $("iframe#showtellvideo").attr("src","");
         $("iframe#connectedvideo").attr("src","");
         $("iframe#myeventsapp").attr("src","");
         $("iframe#baristavideo").attr("src", baristavideo);
+        $("iframe#showtellvideo").attr("src", showtellvideo);
         $("iframe#connectedvideo").attr("src", connectedvideo);
         $("iframe#myeventsapp").attr("src","myeventsapp/prototype5.html");
     });
