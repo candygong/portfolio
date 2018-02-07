@@ -13,6 +13,7 @@ $(document).ready(function () {
     $('section#showtell').hide();
     $('section#myevents').hide();
     $('section#linetheme').hide();
+    $('section#valkyrie').hide();
     $('section#leftpadding').hide();
     $('section#rightpadding').hide();
     $('p#logo').css("opacity", "0");
@@ -135,6 +136,17 @@ $(document).ready(function () {
         $('section#rightpadding').show();
     });
     
+    $('section#gallery ul li#valkyriethumb').click(function () {
+        $('section#mainpage').animate({
+            opacity: .1
+        }, 500, 'linear');
+        $('section#mainpage').css("position", "fixed").css("bottom", "0");
+        $('section#valkyrie').fadeIn();
+        $('html,body').scrollTop(0);
+        $('section#leftpadding').show();
+        $('section#rightpadding').show();
+    });
+    
     $('section#leftpadding').click(function () {
         $('section#mainpage').animate({
             opacity: 1
@@ -147,6 +159,7 @@ $(document).ready(function () {
         $('section#myevents').fadeOut();
         $('section#connected').fadeOut();
         $('section#linetheme').fadeOut();
+        $('section#valkyrie').fadeOut();
         $('section#leftpadding').hide();
         $('section#rightpadding').hide();
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());
@@ -175,6 +188,7 @@ $(document).ready(function () {
         $('section#myevents').fadeOut();
         $('section#connected').fadeOut();
         $('section#linetheme').fadeOut();
+        $('section#valkyrie').fadeOut();
         $('section#leftpadding').hide();
         $('section#rightpadding').hide();
         $('section#mainpage').css("position", "").css("bottom", ""); $('html,body').delay(300).scrollTop($(document).height());

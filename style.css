@@ -519,6 +519,25 @@ section#linetheme a:hover {
     color: #fff;
 }
 
+section#valkyrie ul li {
+    list-style: none;
+    display: inline;
+    padding: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+section#valkyrie ul li div.smallbanner {
+    width: 75%;
+    max-width: 640px;
+    margin: auto;
+}
+
+section#valkyrie ul li div.smallbanner {
+    max-width: 1200px;
+    margin: auto;
+}
+
 section#leftpadding {
     width: 25%;
     position: fixed;
@@ -588,7 +607,7 @@ footer section.left span:hover {
 }
 
 .carousel {
-    position: relative
+    position: relative;
 }
 
 .carousel-inner {
