@@ -135,7 +135,6 @@ section.gallery {
     padding-right: 10%;
     width: 80%;
     max-width: 724px;
-    min-width: 350px;
     background-color: rgba(255, 255, 255, 0.5);
     padding-bottom: 10%;
     position: absolute;
@@ -561,24 +560,19 @@ section#rightpadding {
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
     padding: 5px;
 }
 
 footer section.left{
-    float: left;
-    text-align: left;
+    text-align: center;
     padding-left: 2%;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 footer section.right{
-    float: right;
-    padding-right: 2%;
-    font-size: 12px;
+    display: none;
 }
 
 footer section.left a:link {
