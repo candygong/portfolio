@@ -564,6 +564,8 @@ section#valkyrie ul li div.smallbanner {
 section#vida p {
     width: 90%;
     margin: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 section#vida ul {
@@ -590,6 +592,7 @@ section#vida section#artistpage {
 section#vida section#artistpage img{
     width: 45%;
     margin: 2%;
+    margin-top: 5%;
 }
 
 section#leftpadding {
