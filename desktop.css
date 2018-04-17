@@ -170,6 +170,23 @@ section.gallery p {
     margin-bottom: 3%;
 }
 
+section.backtogallery {
+    text-align: center;
+    background-color: #7c7c7c;
+    color: #fff;
+    width: 150px;
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    clear: both;
+}
+
+section.backtogallery:hover {
+    background-color: #fff;
+    color: #7c7c7c;
+}
+
 section#cottontails img#logo {
     float: left;
     width: 20%;
@@ -343,6 +360,10 @@ section#connected p#connectedvideo iframe {
 	height: 95%;
 }
 
+section#barista section.backtogallery {
+    margin-bottom: 30%;
+}
+
 section#barista h4 {
     padding-bottom: 2%;
     text-align: center;
@@ -350,7 +371,6 @@ section#barista h4 {
 
 section#barista p#musicvideo {
     text-align: center;
-    margin-bottom: 30%;
     position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
@@ -365,6 +385,10 @@ section#barista p#musicvideo iframe {
 	height: 95%;
 }
 
+section#showtell section.backtogallery {
+    margin-bottom: 30%;
+}
+
 section#showtell h4 {
     padding-bottom: 2%;
     text-align: center;
@@ -372,7 +396,6 @@ section#showtell h4 {
 
 section#showtell p#musicvideo2 {
     text-align: center;
-    margin-bottom: 30%;
     position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
@@ -538,6 +561,37 @@ section#valkyrie ul li div.smallbanner {
     margin: auto;
 }
 
+section#vida p {
+    width: 90%;
+    margin: auto;
+}
+
+section#vida ul {
+    margin: auto;
+}
+
+section#vida ul li {
+    list-style: none;
+    display: inline;
+}
+
+section#vida ul li img {
+    margin: 15px;
+    max-width: 300px;
+    min-width: 100px;
+    height: auto;
+    width: 40%;
+}
+
+section#vida section#artistpage {
+    margin: auto;
+}
+
+section#vida section#artistpage img{
+    width: 45%;
+    margin: 2%;
+}
+
 section#leftpadding {
     width: 25%;
     position: fixed;
@@ -554,7 +608,11 @@ section#rightpadding {
     height: 1000px;
 }
 
-footer{
+footer#mobilefooter {
+    display: none;
+}
+
+footer#desktopfooter {
     position: fixed;
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.7);
@@ -562,35 +620,35 @@ footer{
     padding: 5px;
 }
 
-footer section.left{
+footer#desktopfooter section.left{
     float: left;
     text-align: left;
     padding-left: 2%;
     font-size: 12px;
 }
 
-footer section.right{
+footer#desktopfooter section.right{
     float: right;
     padding-right: 2%;
     font-size: 12px;
 }
 
-footer section.left a:link {
+footer#desktopfooter section.left a:link {
     text-decoration: none;
     color: #7c7c7c;
 }
 
-footer section.left a:visited {
+footer#desktopfooter section.left a:visited {
     text-decoration: none;
     color: #7c7c7c;
 }
 
-footer section.left a:hover {
+footer#desktopfooter section.left a:hover {
     text-decoration: none;
     color: #fff;
 }
 
-footer section.left span:hover {
+footer#desktopfooter section.left span:hover {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
